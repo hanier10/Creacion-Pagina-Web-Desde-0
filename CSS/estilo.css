@@ -1,0 +1,420 @@
+
+
+* {
+  margin: 0px;
+  padding: 0px; 
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+
+/*redes sociales*/
+.social {
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+
+.social ul {
+  list-style: none;
+
+}
+
+.social ul li a {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+.social ul li .icon-facebook {background: #00008B;}
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-instagram {background: #A0522D;}
+.social ul li .icon-youtube {background: #FF0000;}
+.social ul li .icon-mail {background:#3b5998;}
+.social ul li .icon-google {background: #FF7F50;}
+
+.social ul li a:hover {
+  padding: 10px 30px;
+  background: #77EF08;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-list
+{
+margin: auto;
+width: 500px;
+font-family: Arial,Helvetica,Sans-serif;
+
+}
+
+ul, ol{
+  list-style:none;
+}
+
+.menu li a {
+  /*background-color: Thistle;*/
+  color: blue; 
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+/*.menu  ul{
+ background-color: white;
+}*/
+
+.menu li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  background: linear-gradient(crimson,white);
+}
+
+.menu :hover > ul {
+  display: block; /*se despliega el menu*/
+border:double 2px blue; 
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright:14px;
+-moz-border-radius-bottomleft:14px;
+-moz-border-radius-bottomright:14px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:14px;
+-webkit-border-bottom-left-radius:14px;
+-webkit-border-bottom-right-radius:14px;
+border-top-left-radius:15px;
+border-top-right-radius:14px;
+border-bottom-left-radius:14px;
+border-bottom-right-radius:14px;
+
+}
+
+
+
+
+
+
+
+
+html {
+  font-size: 110%; }
+/*texto inicial de la pagina centro educativo smart-tech*/
+
+/*encabezado de CENTRO EDUCATIVO SMART-TECH*/
+
+  
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: limegreen;
+  padding: 30px; 
+  font-family: Cambria;
+  font-style: oblique;
+ text-shadow:-1px -2px 19px #000000;
+   }
+
+/*texto INNOVANDO A LA EDUCACION*/
+  h2 {
+  text-align: center;
+  color:MediumBlue;
+  padding: 10px; 
+  font-size: 95%; 
+  font-family: Cambria;
+  font-style: oblique;
+   text-shadow:-1px -2px 19px #000000;
+}
+
+@media screen and (min-width: 90px) {
+  html {
+    font-size: 170%; }
+
+.menu {
+  text-align: center; /*centrado del menu*/
+  margin-top: 20px;
+    padding: 30px; }
+
+  .menu-item  {
+    display: inline-block;
+    padding: 10px;
+
+border:double 2px blue;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright:14px;
+-moz-border-radius-bottomleft:14px;
+-moz-border-radius-bottomright:14px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:14px;
+-webkit-border-bottom-left-radius:14px;
+-webkit-border-bottom-right-radius:14px;
+border-top-left-radius:15px;
+border-top-right-radius:14px;
+border-bottom-left-radius:14px;
+border-bottom-right-radius:14px;
+     }
+
+  .menu-item:hover {
+   background: linear-gradient( crimson, white);
+   box-shadow: 3px 3px 3px 0px #fff;
+     }
+
+ .menu-item li a:hover {
+  background-color: white;
+   -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+-moz-box-shadow: 5px 6px 4px #f50a15;
+-webkit-box-shadow: 5px 6px 4px #f50a15;
+box-shadow: 5px 6px 4px #f50a15;
+
+
+
+
+border:double 2px blue;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright:14px;
+-moz-border-radius-bottomleft:14px;
+-moz-border-radius-bottomright:14px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:14px;
+-webkit-border-bottom-left-radius:14px;
+-webkit-border-bottom-right-radius:14px;
+border-top-left-radius:15px;
+border-top-right-radius:14px;
+border-bottom-left-radius:14px;
+border-bottom-right-radius:14px;
+}
+
+
+.post {
+    width: 50%;
+  }
+
+body {
+  font-size: 16px;
+  background: linear-gradient( blue, white, blue, white ); /*fondo de degradado
+  /*background-color: #2576AB;/*color del fondo*/
+  color:#fff, #000;/* color de los encabezados*/
+   }
+
+   a {
+  text-decoration: none;
+  text-shadow: 1px 0px 0px black;
+}
+
+.post {
+  background-color: DarkGray;
+  border:double 2px blue;/*borde azul de la caja de contenido gris*/
+   box-shadow: 10px 10px 10px 5px; /*efecto sombra de la caja de contenido gris*/
+  margin-bottom: 3px;
+  margin-top: 2px;
+  width: 95%;
+  border-radius: 10px 0px 10px 0px;
+  -moz-border-radius: 10px 0px 10px 0px;
+  -webkit-border-radius: 10px 0px 10px 0px;
+  -o-border-radius: 10px 0px 10px 0px;
+  overflow: auto; 
+}
+  .post-header 
+  {
+    overflow: hidden;
+    border-bottom: 3px dashed limegreen;
+    padding: 5px; 
+    border:double 2px limegreen;
+  background: linear-gradient( crimson, white);
+  }
+  .LOGO-image 
+  {
+    float: left;
+    position: absolute;
+    width: 200px;
+    top: 0 !important;
+  }
+    .Raspberry_Pi_Logo-image 
+      {
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+      }
+    .griffin-image
+      {
+     float: center;
+    width: 90px;
+    margin-right: 10px; 
+      }
+    .morales-image
+      {
+    float: center;
+    width: 90px;
+    margin-right: 10px; 
+     }
+    .treminio-image
+    {
+   float: center;
+    width: 90px;
+    margin-right: 10px; 
+     }
+  .descri-image
+    {
+      float: center;
+    width: 50%;
+    margin-right: 5%; 
+    margin-left: 25%; 
+    padding: 30px;
+     }
+  
+  .tech-image {
+   float: center;
+    width :80%;
+    margin-right: 5%;
+  }
+
+
+.describerry-image{
+ float: right;
+    width :50%;
+    margin-right: 5%;
+}
+
+.raspb-image {
+   float: left;
+    width :40%;
+    margin-right: 5%;
+}
+
+  .claro-image   
+    {
+    position: center;
+    width: 50%;
+    margin-right: 100%; 
+     }
+
+.welco-image
+     {
+      float: center;
+    width: 90%;
+    margin-right: 50px; 
+       margin-left: 60px; 
+    padding: 5px;
+      }
+
+
+
+
+/*
+.slide
+{
+  width: 500px;
+  height: 200px;
+  border: 5px solid #aa0000;
+  overflow-y: hidden; 
+}
+.slide li img
+{
+  width: 500px;
+  height: 200px;
+}
+.slide li
+{
+  list-style: none;
+  float: left;
+}*/
+
+
+/*HOVER DE LA GRADUACION IMAGEN*/
+#container {
+width: 100px;
+margin: 0 auto;
+}
+.ex2 img{
+   float: right;
+height: 300px;
+width: 300px;
+margin: 15px 0;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.ex2 img:hover {
+height: 100px;
+width: 100px;
+margin-left: -10px;
+}
+
+  
+
+
+
+
+
+  .post-title 
+  {
+    font-size: 1.2rem; 
+  }
+
+  .post-body 
+    {
+    padding: 50px;
+    text-align: justify;
+    font-size: 130%; }
+    }
+
+
+    .post-body .post-description
+     {
+      color: MediumBlue; 
+       box-shadow: 3px 3px 3px 0px MediumBlue;
+       } /*SMART-TECH
+
+ 
+
+/*esto es la parte de la cajita de contenido gris de la parte de abajo*/
+  .footer {
+   background-linear-gradient(blue, white, blue);
+   padding: 20px 0;
+   text-align: center;
+   width: 95%; 
+   color: MediumBlue; 
+ }
+
+  .footer-copyright 
+  {
+    color: #000; 
+  }
+
+.center-h {
+  margin-left: auto;
+  margin-right: auto; }
+
+
+
+.table {
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+  }
+ 
+
+
+
+
+
+
+
+
